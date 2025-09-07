@@ -61,12 +61,48 @@ export default function Footer() {
           <div className="space-y-4">
             <h3 className="font-semibold text-foreground">Our Services</h3>
             <div className="space-y-2">
-              <p className="text-muted-foreground text-sm">Website Development</p>
-              <p className="text-muted-foreground text-sm">E-commerce Solutions</p>
-              <p className="text-muted-foreground text-sm">Digital Marketing & SEO</p>
-              <p className="text-muted-foreground text-sm">Cloud Hosting</p>
-              <p className="text-muted-foreground text-sm">Website Maintenance</p>
-              <p className="text-muted-foreground text-sm">Ready-made Software</p>
+              <Link
+                href="/services/website-development"
+                className="block text-muted-foreground hover:text-primary transition-colors text-sm"
+              >
+                Website Development
+              </Link>
+              <Link
+                href="/services/ecommerce-development"
+                className="block text-muted-foreground hover:text-primary transition-colors text-sm"
+              >
+                E-commerce Development
+              </Link>
+              <Link
+                href="/services/ecommerce-services"
+                className="block text-muted-foreground hover:text-primary transition-colors text-sm"
+              >
+                E-commerce Services
+              </Link>
+              <Link
+                href="/services/digital-marketing"
+                className="block text-muted-foreground hover:text-primary transition-colors text-sm"
+              >
+                Digital Marketing
+              </Link>
+              <Link
+                href="/services/graphic-design"
+                className="block text-muted-foreground hover:text-primary transition-colors text-sm"
+              >
+                Graphic Design
+              </Link>
+              <Link
+                href="/services/cloud-hosting"
+                className="block text-muted-foreground hover:text-primary transition-colors text-sm"
+              >
+                Cloud Hosting
+              </Link>
+              <Link
+                href="/services/website-maintenance"
+                className="block text-muted-foreground hover:text-primary transition-colors text-sm"
+              >
+                Website Maintenance
+              </Link>
             </div>
           </div>
 

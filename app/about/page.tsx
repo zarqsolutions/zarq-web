@@ -1,13 +1,40 @@
-import Navigation from "@/components/navigation"
-import Footer from "@/components/footer"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Users, Target, Award, Code2, Globe, Shield, Clock } from "lucide-react"
+import type { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "About ZarQ Solutions - IT Services Company Since 2017 | 8+ Years Experience",
+  description:
+    "Learn about ZarQ Solutions, established in 2017. Our experienced team of IT professionals provides website development, e-commerce solutions, and digital marketing services with 8+ years expertise.",
+  keywords:
+    "about ZarQ Solutions, IT company since 2017, web development team, experienced developers, remote IT services, digital marketing experts, e-commerce specialists, PHP Laravel developers, ReactJS NextJS team",
+  authors: [{ name: "ZarQ Solutions" }],
+  creator: "ZarQ Solutions",
+  publisher: "ZarQ Solutions",
+  robots: "index, follow",
+  openGraph: {
+    title: "About ZarQ Solutions - Professional IT Services Team Since 2017",
+    description:
+      "Meet our experienced team of IT professionals. 8+ years of expertise in web development, e-commerce, and digital marketing. Remote excellence serving clients globally.",
+    type: "website",
+    locale: "en_US",
+    url: "https://zarqsolutions.com/about",
+    siteName: "ZarQ Solutions",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "About ZarQ Solutions - IT Experts Since 2017",
+    description:
+      "Professional IT services team with 8+ years experience. Web development, e-commerce, and digital marketing specialists working remotely.",
+  },
+  alternates: {
+    canonical: "https://zarqsolutions.com/about",
+  },
+}
 
 export default function AboutPage() {
   return (
     <div className="min-h-screen">
-      <Navigation />
-
       {/* Hero Section */}
       <section className="py-20 lg:py-32">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -266,8 +293,6 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
-
-      <Footer />
     </div>
   )
 }

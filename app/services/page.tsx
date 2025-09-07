@@ -1,5 +1,3 @@
-import Navigation from "@/components/navigation"
-import Footer from "@/components/footer"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import Link from "next/link"
@@ -20,12 +18,41 @@ import {
   Mail,
   Palette,
 } from "lucide-react"
+import type { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "IT Services - Website Development, E-commerce, Digital Marketing | ZarQ Solutions",
+  description:
+    "Complete IT services including website development, e-commerce solutions, graphic design, cloud hosting, and digital marketing. PHP Laravel, ReactJS, NextJS, Shopify, SEO, and paid advertising services.",
+  keywords:
+    "IT services, website development, e-commerce development, graphic design services, digital marketing, SEO services, cloud hosting, website maintenance, PHP Laravel development, ReactJS NextJS, Shopify development, Amazon Flipkart listing, Google ads, Meta ads, social media marketing",
+  authors: [{ name: "ZarQ Solutions" }],
+  creator: "ZarQ Solutions",
+  publisher: "ZarQ Solutions",
+  robots: "index, follow",
+  openGraph: {
+    title: "Complete IT Services - Web Development & Digital Marketing | ZarQ Solutions",
+    description:
+      "Professional IT services including website development, e-commerce solutions, graphic design, and digital marketing. Transform your business with our expert solutions.",
+    type: "website",
+    locale: "en_US",
+    url: "https://zarqsolutions.com/services",
+    siteName: "ZarQ Solutions",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "IT Services - Web Development & Digital Marketing",
+    description:
+      "Complete IT solutions: website development, e-commerce, graphic design, cloud hosting, and digital marketing services by ZarQ Solutions.",
+  },
+  alternates: {
+    canonical: "https://zarqsolutions.com/services",
+  },
+}
 
 export default function ServicesPage() {
   return (
     <div className="min-h-screen">
-      <Navigation />
-
       {/* Hero Section */}
       <section className="py-20 lg:py-32">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -498,8 +525,6 @@ export default function ServicesPage() {
           </Button>
         </div>
       </section>
-
-      <Footer />
     </div>
   )
 }
