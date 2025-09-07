@@ -101,21 +101,21 @@ export default function ClientHomePage() {
 
   const reviews = [
     {
-      name: "Sarah Johnson",
-      company: "TechStart Inc.",
+      name: "Dr. Aliya",
+      company: "Dentrixx.com (Dental Clinic)",
       rating: 5,
       review:
         "ZarQ Solutions delivered an exceptional website that exceeded our expectations. Professional team with great communication.",
     },
     {
-      name: "Michael Chen",
-      company: "E-Shop Pro",
+      name: "Kiran Kumar",
+      company: "Odespa.com (Shoppingcart)",
       rating: 5,
       review: "Our e-commerce site has increased sales by 300% since launch. Outstanding work and ongoing support.",
     },
     {
-      name: "Emily Rodriguez",
-      company: "Digital Agency",
+      name: "Eric Boler",
+      company: "Jahda.com (E-commerce)",
       rating: 5,
       review: "The digital marketing services have transformed our online presence. Highly recommend their expertise.",
     },
