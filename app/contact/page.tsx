@@ -108,7 +108,7 @@ export default function ContactPage() {
                           type="tel"
                           value={formData.phone}
                           onChange={(e) => handleChange("phone", e.target.value)}
-                          placeholder="+91-8686-109-631"
+                          placeholder="+91-XXXXXXXXXX"
                         />
                       </div>
                       <div className="space-y-2">

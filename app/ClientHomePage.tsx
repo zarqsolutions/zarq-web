@@ -91,7 +91,7 @@ export default function ClientHomePage() {
   ]
 
   const brands = [
-    "/abstract-tech-logo.png",
+    "/dentrix-logo.png",
     "/abstract-startup-logo.png",
     "/ecommerce-brand-logo.png",
     "/healthcare-company-logo.png",
@@ -102,7 +102,7 @@ export default function ClientHomePage() {
   const reviews = [
     {
       name: "Dr. Aliya",
-      company: "Dentrixx.com (Dental Clinic)",
+      company: "Dentrixx.com (Dental Services)",
       rating: 5,
       review:
         "ZarQ Solutions delivered an exceptional website that exceeded our expectations. Professional team with great communication.",
