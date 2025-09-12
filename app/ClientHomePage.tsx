@@ -92,11 +92,11 @@ export default function ClientHomePage() {
 
   const brands = [
     "/dentrix-logo.png",
-    "/abstract-startup-logo.png",
-    "/ecommerce-brand-logo.png",
-    "/healthcare-company-logo.png",
-    "/education-platform-logo.png",
-    "/finance-company-logo.png",
+    "/goldenpetalsnursery-logo.png",
+    "/logo-jahda-jewelers.webp",
+    "/Mayla-transparent.webp",
+    "/WPM-logo.jpg",
+    "/madina-degree-college.png",
   ]
 
   const reviews = [
